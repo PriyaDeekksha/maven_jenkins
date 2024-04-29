@@ -15,7 +15,7 @@
 	<name>demo-project</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11.0.22</java.version>
+		<java.version>11</java.version>
 		 <maven.compiler.release>11</maven.compiler.release>
 	</properties>
 	<dependencies>
@@ -35,13 +35,11 @@
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>3.2.5</version>
+				<artifactId>spring-boot-maven-plugin</artifactId>				
 			</plugin>
 		       <plugin>
                                <groupId>org.apache.maven.plugins</groupId>
-                               <artifactId>maven-compiler-plugin</artifactId>
-			        <version>3.6.0</version>
+                               <artifactId>maven-compiler-plugin</artifactId>			       
                       </plugin>
 		</plugins>
 	</build>
